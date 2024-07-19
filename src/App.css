@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.loading {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1.5rem;
+}
